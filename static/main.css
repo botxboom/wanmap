@@ -1,0 +1,150 @@
+input, textarea, label
+{
+outline:0;
+}
+
+span{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+position: absolute;
+font-weight: bold;
+right: 0;
+bottom: 0;
+left:0;
+}
+
+p{
+  color: rgb(94,93,95);
+}
+span{
+ color:rgb(94,93,95) ;
+ text-shadow: rgb(94,93,95);
+}
+
+body
+{
+background:url("../templates/images/cool-background.png");
+font:16px/1.5 sans-serif;
+color:rgb(94,93,95);
+overflow: hidden
+}
+
+h1
+{
+font:bold 24px/1.5 sans-serif;
+margin-top:100px;
+text-align:center;
+text-transform:uppercase;
+color: #5E5D5F;
+}
+
+h1 span
+{
+font:16px/1.5 sans-serif;
+color: #5E5D5F;
+font-family: 'Anonymous Pro', monospace;
+}
+
+p
+{
+text-align:center;
+font-family:"aleoregular", serif;
+}
+
+#jq_search
+    {
+      text-align:center;
+      margin:48px 0;
+      
+      
+    }
+    #jq_search h1{
+      color: #5E5D5F;
+      font-weight: bold;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+      #jq_search input[type="search"]
+      {
+        padding:12px;
+        width:305px;
+        height:48px;
+        border: white;
+        font-weight: bold;
+        color: #5E5D5F;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+      }
+      
+      #jq_search input[type="submit"]
+      {
+        width:68px;
+        height:48px;
+        background:rgb(94,93,95);
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+        border:none;
+        font-weight: bold;
+        margin-left: 10px;
+        cursor:pointer;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding:0;
+        opacity:100;
+        color:#EEE;
+      }
+      
+      #jq_search input[type="submit"] + input
+      {
+        background-position:top left;
+      }
+      
+      #jq_search input[type="submit"]:hover
+      {
+        opacity:1;
+      }
+  
+    #shortcuts-zone
+    {
+      position:relative;
+      margin-top: 200px;
+      margin-bottom: aut0;
+      margin-left: auto;
+      margin-right: auto;
+
+      width:452px;
+    }
+
+#info
+{
+margin:20px 0;
+color:rgb(94,93,95);
+}
+
+footer p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navbar{
+  
+  background: #FFFFFF;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo{
+  display:  block;
+  margin: auto;
+  margin-top: 100px;
+  top: 317px;
+}
+
+ /* ---- particles.js container ---- */ 
+ #particles-js{ 
+   position:absolute; 
+   width: 100%; 
+   height: 100%; 
+   background-color:#f8f9fa; 
+   background-image: url(""); 
+   background-repeat: no-repeat; 
+   background-size: cover;
+  }
